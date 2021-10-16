@@ -1,8 +1,10 @@
 ﻿using System;
 using System.Text;
+using System.Threading.Tasks;
 using Avalonia;
 using Avalonia.Controls;
 using Avalonia.ReactiveUI;
+using OpenUtau.Core.Network;
 using Serilog;
 
 namespace OpenUtau.App {
@@ -47,8 +49,8 @@ namespace OpenUtau.App {
             });
         }
 
-        public static void InitOpenUtau() {
-            Core.DocManager.Inst.Initialize();
+        public static void InitOpenUtau(string[] args = null!) {
+            Core.DocManager.Inst.Initialize(args);
         }
 
         public static Action? AutoUpdate { get;set; }
