@@ -30,7 +30,7 @@
   <system:String x:Key="dialogs.exitsave.caption">OpenUtau 종료</system:String>
   <system:String x:Key="dialogs.exitsave.message">현재 프로젝트가 저장되지 않았습니다. 저장하시겠어요?</system:String>
   <system:String x:Key="dialogs.export.caption">내보내기</system:String>
-  <system:String x:Key="dialogs.export.savefirst">먼저 프로젝트 파일 저장</system:String>
+  <system:String x:Key="dialogs.export.savefirst">먼저 프로젝트 파일을 저장해주세요.</system:String>
   <system:String x:Key="dialogs.messagebox.cancel">취소</system:String>
   <system:String x:Key="dialogs.messagebox.no">아니오</system:String>
   <system:String x:Key="dialogs.messagebox.ok">확인</system:String>
@@ -81,11 +81,14 @@
   <system:String x:Key="menu.file">파일</system:String>
   <system:String x:Key="menu.file.exit">나가기</system:String>
   <system:String x:Key="menu.file.exportaudio">오디오 내보내기</system:String>
-  <system:String x:Key="menu.file.exportmidi">Midi 내보내기</system:String>
+  <system:String x:Key="menu.file.exportmidi">Midi 파일로 내보내기</system:String>
   <system:String x:Key="menu.file.exportmixdown">Wav 파일로 믹스다운</system:String>
   <system:String x:Key="menu.file.exportproject">프로젝트 내보내기</system:String>
   <system:String x:Key="menu.file.exportust">Ust 파일 내보내기</system:String>
   <system:String x:Key="menu.file.exportustto">다른 이름으로 Ust 파일 내보내기</system:String>
+  <system:String x:Key="menu.file.exportustwithphonemizer">Ust 파일 내보내기 (음소화기 적용)</system:String>
+  <system:String x:Key="menu.file.exportusttowithphonemizer">다른 이름으로 Ust 파일 내보내기 (음소화기 적용)</system:String>
+  <system:String x:Key="menu.file.exportustxwithphonemizer">Ustx 파일 내보내기 (음소화기 적용)</system:String>
   <system:String x:Key="menu.file.exportwav">Wav 파일 내보내기</system:String>
   <system:String x:Key="menu.file.exportwavto">다른 이름으로 Wav 파일 내보내기</system:String>
   <system:String x:Key="menu.file.importaudio">오디오 가져오기</system:String>
@@ -185,8 +188,8 @@
   <system:String x:Key="pianoroll.menu.notes.addtailrest">"R" 꼬리 추가</system:String>
   <system:String x:Key="pianoroll.menu.notes.clear.vibratos">비브라토 지우기</system:String>
   <system:String x:Key="pianoroll.menu.notes.loadrenderedpitch">렌더링 된 피치 로드</system:String>
-  <system:String x:Key="pianoroll.menu.notes.octavedown">옥타브를 아래로 내리기</system:String>
-  <system:String x:Key="pianoroll.menu.notes.octaveup">옥타브를 위로 올리기</system:String>
+  <system:String x:Key="pianoroll.menu.notes.octavedown">한 옥타브 아래로</system:String>
+  <system:String x:Key="pianoroll.menu.notes.octaveup">한 옥타브 위로</system:String>
   <system:String x:Key="pianoroll.menu.notes.quantize15">1/128로 양자화</system:String>
   <system:String x:Key="pianoroll.menu.notes.quantize30">1/64로 양자화</system:String>
   <system:String x:Key="pianoroll.menu.notes.reset.exps">모든 표현 초기화</system:String>
@@ -224,7 +227,7 @@
   <system:String x:Key="prefs.advanced.resamplerlogging">리샘플러 로그</system:String>
   <system:String x:Key="prefs.advanced.resamplerlogging.warn">리샘플러 출력을 로그 파일에 저장합니다. 이 옵션을 사용하면 UI 및 렌더링 속도가 느려집니다.</system:String>
   <system:String x:Key="prefs.advanced.stable">안정된 버전</system:String>
-  <system:String x:Key="prefs.advanced.vlabelerpath">Vlabeler 경로</system:String>
+  <system:String x:Key="prefs.advanced.vlabelerpath">vLabeler 경로</system:String>
   <system:String x:Key="prefs.appearance">외형</system:String>
   <system:String x:Key="prefs.appearance.lang">언어</system:String>
   <system:String x:Key="prefs.appearance.showghostnotes">피아노 롤에 다른 트랙의 노트 표시</system:String>
@@ -280,10 +283,10 @@
   <system:String x:Key="progress.waitingrendering">렌더링 대기 중</system:String>
 
   <system:String x:Key="singers.caption">가수</system:String>
-  <system:String x:Key="singers.editoto.editinvlabeler">vLabeler에서 수정하기</system:String>
+  <system:String x:Key="singers.editoto.editinvlabeler">vLabeler에서 편집</system:String>
   <system:String x:Key="singers.editoto.gotosource">소스파일 열기</system:String>
   <system:String x:Key="singers.editoto.regenfrq">FRQ 재생성</system:String>
-  <system:String x:Key="singers.editoto.regenfrq.regenerating">FRQ를 재생성 하는 중</system:String>
+  <system:String x:Key="singers.editoto.regenfrq.regenerating">FRQ 재생성 중...</system:String>
   <system:String x:Key="singers.editoto.reset">Oto 초기화</system:String>
   <system:String x:Key="singers.editoto.save">Oto 저장</system:String>
   <system:String x:Key="singers.editoto.setvlabelerpath">https://github.com/sdercolin/vlabeler 에서 vLabeler(1.0.0-beta1 이상)를 다운로드 할 수 있습니다. 그리고 설정에서 vLabeler 경로를 지정해주세요.</system:String>

@@ -1,12 +1,15 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Globalization;
 using System.IO;
 using System.Linq;
 using System.Text;
+
 using OpenUtau.Core;
 using OpenUtau.Core.Format;
 using OpenUtau.Core.Ustx;
+
+using static OpenUtau.Api.Phonemizer;
 
 namespace OpenUtau.Classic {
 
